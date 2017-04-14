@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric5 project file for project Antenna_Tracker -->
+<!-- Saved: 2017-02-27, 15:39:02 -->
+<!-- Copyright (C) 2017 Rick Bell, rickbase1@gmail.com -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>36494b42c505e556c9e24a330d39b7c1ff54a446</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description>Wifi pan/tilt antenna tracking software python3</Description>
+  <Version>0.1</Version>
+  <Author>Rick Bell</Author>
+  <Email>rickbase1@gmail.com</Email>
+  <Eol index="-1"/>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>PID.py</Source>
+    <Source>main.py</Source>
+    <Source>servo.py</Source>
+    <Source>test_pid.py</Source>
+    <Source>compass.py</Source>
+    <Source>rick-test.py</Source>
+    <Source>config.py</Source>
+    <Source>stepper.py</Source>
+    <Source>Tracker.py</Source>
+    <Source>test_config.py</Source>
+    <Source>gui.py</Source>
+  </Sources>
+  <Forms/>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others/>
+  <MainScript>/home/pi/antenna/RTEllipsoidFit/Tracker/compass.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS"/>
+  </FiletypeAssociations>
+</Project>
